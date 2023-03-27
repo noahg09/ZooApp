@@ -1,4 +1,5 @@
-import "./ticketKauf.css"
+import "./TicketKauf.css"
+import Image from "../../images/img.png"
 function TicketKauf(){
     return(
         <div>
@@ -14,7 +15,7 @@ function TicketKauf(){
                 <summary>
                     Ticket 1
                 </summary>
-                <img src="../../images/img.png"/>
+                <img src={Image} alt="qr-Code"/>
             </details>
             <hr></hr>
         </div>

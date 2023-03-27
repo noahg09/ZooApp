@@ -1,7 +1,8 @@
 import './App.css';
 import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
-import Home from "./components/home/home";
-import TicketKauf from "./components/home/ticketKauf";
+import Home from "./components/home/Home";
+import React from "react";
+import TicketKauf from "./components/home/TicketKauf";
 
 function App() {
     return (

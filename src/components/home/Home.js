@@ -35,7 +35,6 @@ function Home() {
                     MÄRZ BIS OKTOBER
                 </div>
                 <br/>
-                <br/>
                 <div>
                     Zoo: 9-18 Uhr
                     <br/>
@@ -45,7 +44,6 @@ function Home() {
                 <div className="oeffnungTitle">
                     MÄRZ BIS OKTOBER
                 </div>
-                <br/>
                 <br/>
                 <div>
                     Zoo: 9-18 Uhr
