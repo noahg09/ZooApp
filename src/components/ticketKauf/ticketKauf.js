@@ -22,7 +22,7 @@ function TicketKauf(){
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                 >
-                    <Typography>Ticket 1</Typography>
+                    <Typography><tr><th>Zoo Ticket</th><th>Kind</th></tr></Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <img src={qrCode}/>
