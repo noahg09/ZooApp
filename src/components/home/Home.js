@@ -3,7 +3,6 @@ import {Divider, Link} from "@mui/material";
 import pinguineImg from "../../images/pinguine.png";
 import giraffeImg from "../../images/giraffe.png";
 import savanneImg from "../../images/savanne.png";
-import HomePicture from "./HomePicture";
 
 function Home() {
     return (
