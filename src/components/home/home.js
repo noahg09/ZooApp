@@ -3,25 +3,29 @@ import {Divider, Link} from "@mui/material";
 import pinguineImg from "../../images/pinguine.png";
 import giraffeImg from "../../images/giraffe.png";
 import savanneImg from "../../images/savanne.png";
+import Header from "../header/header";
 
 function Home() {
+    const titleValue = "Home";
+
     return (
         <div>
+            <Header titleValue={titleValue}></Header>
             <div className="pictureHeader">
                 <div>
-                    <img src={pinguineImg} className="homeImg" id="pinguineImg" alt="Pinguine"/>
+                    <a><img src={pinguineImg} className="homeImg" id="pinguineImg" alt="Pinguine"/></a>
                     <br/>
-                    Nächster Lauf
+                    <a className="header-title">Nächster Lauf um 13:30</a>
                 </div>
                 <div>
                     <img src={giraffeImg} className="homeImg" id="giraffeImg" alt="Giraffe"/>
                     <br/>
-                    Nächste Fütterung
+                    <a className="header-title">Nächste Fütterung um 15:00</a>
                 </div>
                 <div>
                     <img src={savanneImg} className="homeImg" id="savanneImg" alt="Savanne"/>
                     <br/>
-                    NEU: Savanne
+                    <a className="header-title" id="title-red">NEU: Savanne</a>
                 </div>
             </div>
             <br/>
@@ -50,7 +54,7 @@ function Home() {
                     Masoala: 10-18 Uhr
                 </div>
                 <br/>
-                <Link href="/Home" className="link">Infos zu Restaurants</Link>
+                <Link href="/home" className="link">Infos zu Restaurants</Link>
             </div>
             <br/>
         </div>
