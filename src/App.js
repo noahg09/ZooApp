@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
-import Home from "./components/home/home";
+import Home from "./components/home/Home";
 import TicketKauf from "./components/ticketKauf/ticketKauf";
 import {BottomNavigation, BottomNavigationAction, Paper} from "@mui/material";
 import HomeIcon from '@mui/icons-material/Home';
