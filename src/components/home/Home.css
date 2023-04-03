@@ -1,5 +1,5 @@
 .pictureHeader{
-    margin-top: 5%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: 32% 32% 32%;
     grid-template-rows: 100%;
@@ -23,6 +23,14 @@
 
 #savanneImg {
     grid-column: 3;
+}
+
+.header-title{
+    font-weight: bold;
+}
+
+#title-red{
+    color: red;
 }
 
 .oeffnungZeiten {
