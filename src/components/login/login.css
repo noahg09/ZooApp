@@ -1,0 +1,21 @@
+
+#login {
+    width: 40rem;
+    height: 20rem;
+    margin-top: 8%;
+    margin-left: 28rem;
+    text-align: center;
+
+}
+
+#loginFields {
+    padding: 10%;
+}
+
+#logo {
+    position: relative;
+    width: 18rem;
+    margin-top: 2%;
+    margin-left: 39rem;
+
+}
