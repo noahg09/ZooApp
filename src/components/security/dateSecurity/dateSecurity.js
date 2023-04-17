@@ -4,21 +4,21 @@ import {Paper} from "@mui/material";
 function DateSecurity() {
     return (
         <main id={"security-main"}>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Zoo Zürich<br/>
                 Zürichbergstrasse 221<br/>
                 8044 Zürich<br/>
                 Schweiz<br/>
                 E-Mail: zoo@zoo.ch<br/>
             </Paper>
-            <Paper>
+            <Paper  className={"security-paper"}>
                 Vertretungsberechtigte Personen<br/>
                 Colin Marti<br/>
                 Noah Grünig<br/>
                 Mauro Grieco<br/>
                 Nils von Däniken<br/>
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Name des Unternehmens: Zoo Zürich
 
                 Datenschutzbeauftragte Person:
@@ -26,7 +26,7 @@ function DateSecurity() {
                 044 254 25 00
                 colin.marti@lernende.bbw.ch
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Allgemein
                 Gestützt auf Artikel 13 der Schweizerischen Bundesverfassung und die datenschutzrechtlichen
                 Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer
@@ -51,14 +51,14 @@ function DateSecurity() {
                 erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre
                 ausdrückliche Zustimmung nicht an Dritte weitergegeben.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Kontaktformular
                 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem
                 Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der
                 Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht
                 ohne Ihre Einwilligung weiter.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Newsletter
                 Wenn Sie den auf der Webseite angebotenen Newsletter empfangen möchten, benötigen wir von Ihnen
                 eine E-Mail-Adresse sowie Informationen, welche uns die Überprüfung gestatten, dass Sie der
@@ -69,7 +69,7 @@ function DateSecurity() {
                 zum Versand des Newsletters erteilt haben, können Sie diese jederzeit widerrufen, etwa über den
                 ""Abmeldelink"" im Newsletter.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Google Maps
                 Diese Website nutzt das Angebot von Google Maps. Dies ermöglicht es uns, interaktive Karten
                 direkt auf der Website darzustellen und Ihnen die komfortable Nutzung der Kartenfunktion zu
@@ -89,7 +89,7 @@ function DateSecurity() {
                 Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre finden Sie unter:
                 www.google.de/intl/de/policies/privacy.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Facebook
                 Diese Website nutzt Funktionen der Facebook Inc, 1601 S. California Ave, Palo Alto, CA 94304,
                 USA . Wenn Sie unsere Seiten mit Facebook-Plugins aufrufen, wird eine Verbindung zwischen Ihrem
@@ -101,7 +101,7 @@ function DateSecurity() {
                 "Teilen"-Buttons, werden ebenfalls an Facebook weitergeleitet. Mehr dazu erfahren Sie unter
                 https://de-de.facebook.com/about/privacy.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Twitter
                 Diese Website nutzt Funktionen der Twitter, Inc. 1355 Market St, Suite 900, San Francisco, CA
                 94103, USA. Wenn Sie unsere Seiten mit Twitter-Plug-Ins aufrufen, wird eine Verbindung zwischen
@@ -112,7 +112,7 @@ function DateSecurity() {
                 Anklicken einer "Re-Tweet"-Schaltfläche, werden ebenfalls an Twitter weitergeleitet. Mehr dazu
                 erfahren Sie unter https://twitter.com/privacy.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Instagram
                 Auf unserer Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden
                 angeboten durch die Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA. Wenn Sie in
@@ -123,7 +123,7 @@ function DateSecurity() {
                 erhalten. Weitere Informationen finden Sie in den Datenschutzbestimmungen von Instagram:
                 http://instagram.com/about/legal/privacy/
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 LinkedIn
                 Wir nutzen innerhalb unseres Onlineangebotes die Marketingdienste des sozialen Netzwerkes
                 LinkedIn der LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Irland
@@ -156,7 +156,7 @@ function DateSecurity() {
                 Die Informationen des Drittanbieters: LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2
                 Irland; Nutzungsvereinbarung und Datenschutzrichtlinie.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Audio- und Videokonferenzen
                 Wir nutzen Audio- und Videokonferenzdienste, um mit unseren Nutzern und anderen zu
                 kommunizieren. Insbesondere können wir damit Audio- und Videokonferenzen, virtuelle Meetings und
@@ -172,7 +172,7 @@ function DateSecurity() {
                 Datenverarbeitung finden Sie in den Datenschutzrichtlinien und auf der Seite ""Rechtliche
                 Bestimmungen und Datenschutz"" von Zoom jeweils.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 YouTube
                 Auf dieser Website sind Funktionen des Dienstes ""YouTube"" integriert. ""YouTube"" ist Eigentum
                 von Google Ireland Limited, einem nach irischem Recht gegründeten und betriebenen Unternehmen
@@ -184,7 +184,7 @@ function DateSecurity() {
                 Ihrer Nutzung der Dienste dar. In den Datenschutzbestimmungen von Google wird erläutert, wie
                 "YouTube" Ihre persönlichen Daten behandelt und schützt, wenn Sie den Dienst nutzen.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Onlineshop / Webshop
                 Wir verarbeiten die Daten unserer Kunden im Einklang mit den datenschutzrechtlichen Bestimmungen
                 des Bundes (Datenschutzgesetz, DSG) und der EU-DSGVO im Rahmen der Bestellvorgänge in unserem
@@ -223,14 +223,14 @@ function DateSecurity() {
                 Erforderlichkeit der Aufbewahrung der Daten wird in unregelmässigen Abständen überprüft. Im
                 Falle von gesetzlichen Archivierungspflichten erfolgt die Löschung nach deren Ablauf.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Änderungen
                 Wir können diese Datenschutzrichtlinie jederzeit ohne vorherige Ankündigung ändern. Es gilt die
                 jeweils aktuelle, auf unserer Website veröffentlichte Fassung. Soweit die Datenschutzerklärung
                 Teil einer Vereinbarung mit Ihnen ist, werden wir Sie im Falle einer Aktualisierung per E-Mail
                 oder auf andere geeignete Weise über die Änderung informieren.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Haftungsausschluss
                 Der Autor übernimmt keine Gewähr für die Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit
                 und Vollständigkeit der Informationen.
@@ -242,7 +242,7 @@ function DateSecurity() {
                 oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder
                 die Veröffentlichung zeitweise oder endgültig einzustellen.
             </Paper>
-            <Paper>
+            <Paper className={"security-paper"}>
                 Quelle: BrainBox Solutions
             </Paper>
         </main>

@@ -1,10 +1,10 @@
-#security-main{
+#impressum-main{
     padding: 10px;
     background-color: #d6d6d6;
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     grid-row-gap: 10px;
 }
-.security-paper{
+.impressum-paper{
     padding: 10px;
 }
