@@ -10,7 +10,7 @@ function Home() {
 
     return (
         <div>
-            <Header titleValue={titleValue}></Header>
+            <Header titleValue={titleValue}/>
             <div className="pictureHeader">
                 <div>
                     <a><img src={pinguineImg} className="homeImg" id="pinguineImg" alt="Pinguine"/></a>
@@ -23,7 +23,7 @@ function Home() {
                     <a className="header-title">Nächste Fütterung um 15:00</a>
                 </div>
                 <div>
-                    <img src={savanneImg} className="homeImg" id="savanneImg" alt="Savanne"/>
+                    <a href="/home/savanne"><img src={savanneImg} className="homeImg" id="savanneImg" alt="Savanne"/></a>
                     <br/>
                     <a className="header-title" id="title-red">NEU: Savanne</a>
                 </div>
