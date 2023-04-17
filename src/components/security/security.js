@@ -1,5 +1,6 @@
 import {useState} from "react";
-import {Box, Paper, Tab, Tabs} from "@mui/material";
+import {Box, Tab, Tabs} from "@mui/material";
+import DateSecurity from "./dateSecurity/dateSecurity";
 
 function Security() {
     const [value, setValue] = useState(0);
@@ -16,6 +17,13 @@ function Security() {
                     </Tabs>
                 </Box>
             </header>
+            <main>
+                {value===0?
+                    <DateSecurity/>
+                    :
+                    <></>
+                }
+            </main>
 
         </div>
     )
