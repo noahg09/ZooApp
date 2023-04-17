@@ -3,3 +3,17 @@ td, th {
     text-align: left;
     padding: 8px;
 }
+.ti1{
+    margin-right: 1em;
+}
+.ti2{
+    margin-left: 200px;
+}
+
+
+.flex { display: flex; }
+
+.addButton{
+    float: right;
+    margin-right: 50px;
+}
