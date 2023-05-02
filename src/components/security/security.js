@@ -1,6 +1,7 @@
 import {useState} from "react";
 import {Box, Tab, Tabs} from "@mui/material";
 import DateSecurity from "./dateSecurity/dateSecurity";
+import Impressum from "./impressum/impressum";
 
 function Security() {
     const [value, setValue] = useState(0);
@@ -21,7 +22,7 @@ function Security() {
                 {value===0?
                     <DateSecurity/>
                     :
-                    <></>
+                    <Impressum/>
                 }
             </main>
 
