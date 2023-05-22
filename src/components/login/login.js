@@ -31,26 +31,29 @@ function Login() {
     };
 
     function handleLogin() {
-
+        let error = false;
         if (username === "") {
             setSnackbarOpen(true)
             setUsernameValidate(true)
+            error = true;
         } else {
             setUsernameValidate(false)
 
         }
-        console.log(snackbarOpen)
 
         if (pwd === "") {
             setSnackbarOpen(true)
             setPwdValidate(true)
-
+            error = true;
         } else {
             setPwdValidate(false)
 
         }
         if (pwdValidate && usernameValidate) {
             setSnackbarOpen(false)
+        }
+        if(!error){
+
         }
 
 
