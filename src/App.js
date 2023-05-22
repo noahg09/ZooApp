@@ -10,7 +10,7 @@ import {useState} from "react";
 import LockIcon from '@mui/icons-material/Lock';
 import Map from "./components/map/map";
 import Security from "./components/security/security";
-import Savanne from "./components/home/savanne";
+import Savanne from "./components/home/savanne/savanne";
 
 function App() {
     const [value, setValue] = useState(0);

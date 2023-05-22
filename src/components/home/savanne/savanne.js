@@ -1,9 +1,9 @@
-import Header from "../header/header";
+import Header from "../../header/header";
 import {Divider, ImageList} from "@mui/material";
-import zebraImg from "../../images/zebra.png";
-import giraffeImg from "../../images/giraffeSavanne.png";
-import gazelleImg from "../../images/gazelle.png";
-import nashornImg from "../../images/nashorn.png";
+import zebraImg from "../../../images/zebra.png";
+import giraffeImg from "../../../images/giraffeSavanne.png";
+import gazelleImg from "../../../images/gazelle.png";
+import nashornImg from "../../../images/nashorn.png";
 
 function Savanne() {
     const titleValue = "Savanne";
