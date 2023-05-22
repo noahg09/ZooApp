@@ -1,4 +1,4 @@
-import "./Home.css"
+import "./home.css"
 import {Divider, Link} from "@mui/material";
 import pinguineImg from "../../images/pinguine.png";
 import giraffeImg from "../../images/giraffe.png";
