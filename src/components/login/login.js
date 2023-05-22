@@ -41,7 +41,7 @@ function Login() {
         }
         console.log(snackbarOpen)
 
-        if (pwd === "" ) {
+        if (pwd === "") {
             setSnackbarOpen(true)
             setPwdValidate(true)
 
@@ -49,18 +49,17 @@ function Login() {
             setPwdValidate(false)
 
         }
-        if (pwdValidate && usernameValidate){
+        if (pwdValidate && usernameValidate) {
             setSnackbarOpen(false)
         }
-        console.log(snackbarOpen)
-        console.log(pwd)
+
 
     }
 
     return (
         <div id={"loginSite"}>
-            <Snackbar open={snackbarOpen} autoHideDuration={6000} >
-                <Alert severity="warning" sx={{ width: '100%' }}>
+            <Snackbar open={snackbarOpen} onClose={() => setSnackbarOpen(false)} autoHideDuration={4000}>
+                <Alert severity="warning" sx={{width: '100%'}}>
                     Fülle die Felder richtig ab!
                 </Alert>
             </Snackbar>
